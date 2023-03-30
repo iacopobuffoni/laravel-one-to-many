@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/bootstrap";
+
+main {
+    height: 100vh;
+}
+
+#status:focus {
+    option:first-child {
+        display: none;
+    }
+}
+
+.imgContainer {
+    img {
+        height: 200px;
+    }
+}
